@@ -1,0 +1,7 @@
+put *.html htdocs
+put *.txt htdocs
+put *.sh htdocs
+put *.sftp htdocs
+put *.png htdocs
+put *.jpg htdocs
+exit
