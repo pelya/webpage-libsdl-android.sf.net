@@ -4,3 +4,8 @@ including but not limited to name,
 date of birth, address, email,
 contact information, location,
 or accounts on social networks.
+
+If the app asks for Google+ login,
+this is for sole purpose of
+storing saved games in your
+Google Drive account.
