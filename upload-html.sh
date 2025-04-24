@@ -1,3 +1,6 @@
 #!/bin/sh
 
-sftp -b batch.sftp "pelya@web.sourceforge.net:/home/project-web/libsdl-android/"
+rsync -avP -e ssh * "pelya@web.sourceforge.net:/home/project-web/libsdl-android/htdocs/"
+
+# List the server directory
+#rsync -avP -e ssh "pelya@web.sourceforge.net:/home/project-web/libsdl-android/htdocs/"
